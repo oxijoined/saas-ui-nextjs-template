@@ -1,12 +1,12 @@
 import { extendTheme, ThemeConfig, ThemeOverride } from "@chakra-ui/react";
 
-// Конфигурация темы
+// Theme Configuration
 const config: ThemeConfig = {
-  initialColorMode: "dark", // Установите начальный режим цвета (light или dark)
-  useSystemColorMode: false, // Использовать ли системные настройки цвета
+  initialColorMode: "dark", // Set the initial color mode (light or dark)
+  useSystemColorMode: false, // Whether to use system color settings
 };
 
-// Расширение базовой темы Chakra UI
+// Extension of the Chakra UI base theme
 const customTheme: ThemeOverride = {
   colors: {
     primary: "#3182CE", // Example of a primary color
