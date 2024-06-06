@@ -35,7 +35,7 @@ To create a new project based on this template, follow these steps:
 
 ```typescript
 
-npx create-next-app --example https://github.com/oxijoined/saas-ui-nextjs-template my-new-project
+npx create-next-app --example https://github.com/oxijoined/saas-ui-nextjs-template
 
 ```
   
@@ -210,7 +210,7 @@ export default theme;
 
 ```typescript
 
-npx create-next-app --example https://github.com/oxijoined/saas-ui-nextjs-template my-new-project
+npx create-next-app --example https://github.com/oxijoined/saas-ui-nextjs-template
 
 ```
   
