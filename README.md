@@ -122,17 +122,15 @@ To add a new page to your application, create a new .tsx file in the /pages dire
 
 	import { Box,  Heading  }  from  '@chakra-ui/react';
 
-	  
-
-	const About = () => (
-  <Box p={5}>
-    <Heading as="h1">About Us</Heading>
-    <p>Welcome to the about page!</p>
-  </Box>
-);
+    const About = () => (
+    <Box p={5}>
+        <Heading as="h1">About Us</Heading>
+        <p>Welcome to the about page!</p>
+    </Box>
+    );
 
   
-export default About;
+    export default About;
 	```
 	  
 
@@ -301,27 +299,15 @@ npm run build
 
 	import { Box,  Heading  }  from  '@chakra-ui/react';
 
-	  
+    const About = () => (
+    <Box p={5}>
+        <Heading as="h1">About Us</Heading>
+        <p>Welcome to the about page!</p>
+    </Box>
+    );
 
-	const About = () => {
-
-	return (
-
-	<Box  p={5}>
-
-	<Heading as="h1">About  Us</Heading>
-
-	<p>Welcome to the about page!</p>
-
-	</Box>
-
-	);
-
-	};
-	
-	  
-
-	export default About;
+  
+    export default About;
 	```
 	  
 
